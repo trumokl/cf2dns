@@ -1,4 +1,4 @@
-name: 'GitHub Actions CloudFlare2DNSPod Bot2'
+name: 'Bot2'
 
 on:
   push:
