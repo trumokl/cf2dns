@@ -22,7 +22,7 @@ jobs:
       - name: 'run cf2dns'
         env:
           KEY: ${{ secrets.KEY }}
-          DOMAINS: ${{ secrets.DOMAINS2 }}
+          DOMAINS: ${{ secrets.DOMAINS3 }}
           SECRETID: ${{ secrets.SECRETID }}
           SECRETKEY: ${{ secrets.SECRETKEY }}
         run: python cf2dns_actions.py
